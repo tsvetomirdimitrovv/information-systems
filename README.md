@@ -1,39 +1,47 @@
-💼 Information System for Computer Parts (University Project)
+# 🧩 Computer Parts Information System — Design & Modeling
 
-A full lifecycle information system covering orders, inventory, suppliers, complaints and warehouse logistics.
-￼
+![Tech](https://img.shields.io/badge/Tech-UML%20%7C%20Data%20Modeling-blue)
+![Project](https://img.shields.io/badge/Project-University%20Project-orange)
 
-🔥 Key Features
-	•	Customer registration, login, order creation and order history
-	•	Employee workflows: order processing, invoice issuing, expedition notes
-	•	Inventory and warehouse management
-	•	Supplier management and delivery tracking
-	•	Complaints handling and resolution flow
+## 💡 Overview
 
-🧩 System Design
+A university systems analysis project modeling a computer parts business: customer orders, inventory, suppliers, warehouse operations, and complaints. This repository presents the design artifacts and data model.
 
-The project includes complete system modeling:
-	•	Use Case diagrams (clients, employees, managers)
-	•	Activity & Sequence diagrams for order flow
-	•	Class diagram & full ER database model
-	•	Nomenclature & coding system for objects and logistics entities
+## 📌 Features
 
-🗄️ Database
+- Use case modeling of the system's actors and responsibilities.
+- Activity and sequence diagrams for business workflows.
+- Class and relational database models.
+- Modeling of order, delivery, stock, and complaint processes.
+- A Power BI project for exploring business reporting.
 
-Relational database with 11 linked tables: Users, Orders, Order Items, Parts, Suppliers, Warehouse, Inventory, Expedition Notes, Complaints, etc.
-Designed with:
-	•	Foreign keys, identifying/non-identifying relationships
-	•	Composite keys for many-to-many tables
-	•	Constraints, triggers and referential integrity rules
-￼
+## 🛠 Tech Stack
 
-🛠️ Tech Stack
-	•	Backend: PHP
-	•	Database: MySQL
-	•	Frontend: HTML, CSS
-	•	Tools: ERwin Data Modeler, Power BI, MS Office (documentation, diagrams)
+**Modeling:** UML and ERwin Data Modeler.  
+**Data and reporting:** Relational database design, SQL, and Power BI.  
+**Documentation:** Diagram images and PDF.
 
-📝 Deliverables
-	•	Full documentation: requirements, diagrams, interface descriptions, database schema
-	•	Working prototype with user roles (client, employee, manager)
-	•	Power BI dashboard for sales and inventory analytics
+## 📂 Project Structure
+
+| Artifact | Purpose |
+| --- | --- |
+| [Use case diagram](1_-_Use_Case.png) | Actors and system functions |
+| [Activity diagram](1_-_Activity.png) | Workflow steps |
+| [Sequence diagram](1_-_Sequence_Diagram.png) | Interactions over time |
+| [Class diagram](Class.png) | Structural model |
+| [Database model](Database%20model.pdf) | Relational design |
+| `.erwin` file | Editable ERwin model |
+| `.pbix` file | Power BI report project |
+| `.txt` file | Database script material |
+
+## 🚀 Explore the Project
+
+Start with the linked diagrams and database PDF. Open the editable model and report files in their corresponding desktop applications when you want to inspect their structure.
+
+## 🧪 Project Status
+
+**Public Artifacts · University Project.** This repository contains models, diagrams, and reporting files. It does not include a runnable PHP application, so no web application setup or implemented user-role workflow is claimed here.
+
+## 👨‍💻 Author
+
+[Tsvetomir Dimitrov](https://github.com/tsvetomirdimitrovv)
